@@ -1,0 +1,30 @@
+@TrainingProject_HostAddress = https://localhost:7250
+
+###
+
+GET {{TrainingProject_HostAddress}}/api/hotels
+
+###
+
+POST {{TrainingProject_HostAddress}}/api/hotels
+Content-Type: application/json
+
+{
+  //Hotel
+}
+
+###
+
+@id=2
+GET {{TrainingProject_HostAddress}}/api/hotels/{{id}}
+
+###
+
+PUT {{TrainingProject_HostAddress}}/api/hotels/{{id}}
+Content-Type: application/json
+
+{
+  //Hotel
+}
+
+###
